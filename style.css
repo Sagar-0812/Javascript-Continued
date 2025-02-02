@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-image: url("10309969.jpg");
+    height: 95vh;
+    width: 101%;
+    background-size: cover;
+    transition: 1s smooth;
+}
+.navi,a{
+    margin: 30px 20px;
+    display: flex;
+    height: 0;
+}
+a{
+    color: white;
+    font-size: 2em;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Open Sans", serif;
+}
+.svgs{
+    display: flex;
+    margin: 59px 500px;
+    gap: 10px;
+    color: white;
+    position: relative;
+}
+.svg1:hover{
+    color: white;
+}
+#text{
+    font-size: 3em;
+    color: white;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+a:hover{
+    color: orange;
+    transform: scale(1.1);   
+    transition: .5s ; 
+}
+#inner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#btn{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: hsl(236, 75%, 33%);
+    margin-top: 100px;
+    position: fixed;
+
+}
+#btn:hover{
+    color: black;
+    background-color: white;
+    transition: 1s;
+    transform: scale(1.1);
+}
+.navi{
+    position: fixed;
+}
+.svg1{
+   margin: 50px 10px;
+}
